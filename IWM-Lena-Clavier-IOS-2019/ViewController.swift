@@ -19,16 +19,29 @@ class ViewController: UIViewController {
     }
 
     @IBAction func loginAttempt(_ sender: Any){
-        let test = pseudoTextField.text
+//        let test = pseudoTextField.text
+//
+//        if let poulet = test {
+//            print(poulet)
+//        }
+//        let alert = UIAlertController(title: "Vous avez cliqué sur le bouton", message: "This is an alert.", preferredStyle: .alert)
+//        alert.addAction(UIAlertAction(title: NSLocalizedString("OK", comment: "Default action"), style: .default, handler: { _ in
+//        NSLog("The \"OK\" alert occured.")
+//        }))
+//        self.present(alert, animated: true, completion: nil)
+        let pseudo = pseudoTextField.text
+        let password = passwordTextField.text
         
-        if let poulet = test {
-            print(poulet)
+        if pseudo == "Lena" && password == "lena" {
+            self.performSegue(withIdentifier: "HomePageViewController", sender: self)
+                    
+        } else {
+            let alert = UIAlertController(title: "Alert", message: "Try again", preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: NSLocalizedString("OK", comment: "Default action"), style: .default, handler: { _ in
+                    NSLog("The \"OK\" alert occured.")
+                    }))
+            self.present(alert, animated: true, completion: nil)
         }
-        let alert = UIAlertController(title: "Vous avez cliqué sur le bouton", message: "This is an alert.", preferredStyle: .alert)
-        alert.addAction(UIAlertAction(title: NSLocalizedString("OK", comment: "Default action"), style: .default, handler: { _ in
-        NSLog("The \"OK\" alert occured.")
-        }))
-        self.present(alert, animated: true, completion: nil)
         
     }
 

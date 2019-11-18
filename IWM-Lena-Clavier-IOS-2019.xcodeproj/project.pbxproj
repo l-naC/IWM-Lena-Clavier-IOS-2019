@@ -16,6 +16,8 @@
 		D0FE97742382D06400AC5867 /* IWM_Lena_Clavier_IOS_2019Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FE97732382D06400AC5867 /* IWM_Lena_Clavier_IOS_2019Tests.swift */; };
 		D0FE977F2382D06400AC5867 /* IWM_Lena_Clavier_IOS_2019UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FE977E2382D06400AC5867 /* IWM_Lena_Clavier_IOS_2019UITests.swift */; };
 		D0FE978D2382D28B00AC5867 /* fond.png in Resources */ = {isa = PBXBuildFile; fileRef = D0FE978C2382D28B00AC5867 /* fond.png */; };
+		D0FE978F2382D55600AC5867 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FE978E2382D55600AC5867 /* HomeViewController.swift */; };
+		D0FE97912382DE6800AC5867 /* favoris.png in Resources */ = {isa = PBXBuildFile; fileRef = D0FE97902382DE6800AC5867 /* favoris.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		D0FE977E2382D06400AC5867 /* IWM_Lena_Clavier_IOS_2019UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IWM_Lena_Clavier_IOS_2019UITests.swift; sourceTree = "<group>"; };
 		D0FE97802382D06400AC5867 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0FE978C2382D28B00AC5867 /* fond.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fond.png; path = ../../Downloads/fond.png; sourceTree = "<group>"; };
+		D0FE978E2382D55600AC5867 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		D0FE97902382DE6800AC5867 /* favoris.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = favoris.png; path = ../../Downloads/favoris.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,7 @@
 				D0FE977D2382D06400AC5867 /* IWM-Lena-Clavier-IOS-2019UITests */,
 				D0FE975A2382D06300AC5867 /* Products */,
 				D0FE978C2382D28B00AC5867 /* fond.png */,
+				D0FE97902382DE6800AC5867 /* favoris.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,6 +114,7 @@
 				D0FE97652382D06400AC5867 /* Assets.xcassets */,
 				D0FE97672382D06400AC5867 /* LaunchScreen.storyboard */,
 				D0FE976A2382D06400AC5867 /* Info.plist */,
+				D0FE978E2382D55600AC5867 /* HomeViewController.swift */,
 			);
 			path = "IWM-Lena-Clavier-IOS-2019";
 			sourceTree = "<group>";
@@ -238,6 +244,7 @@
 				D0FE97692382D06400AC5867 /* LaunchScreen.storyboard in Resources */,
 				D0FE97662382D06400AC5867 /* Assets.xcassets in Resources */,
 				D0FE978D2382D28B00AC5867 /* fond.png in Resources */,
+				D0FE97912382DE6800AC5867 /* favoris.png in Resources */,
 				D0FE97642382D06300AC5867 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,6 +273,7 @@
 				D0FE97612382D06300AC5867 /* ViewController.swift in Sources */,
 				D0FE975D2382D06300AC5867 /* AppDelegate.swift in Sources */,
 				D0FE975F2382D06300AC5867 /* SceneDelegate.swift in Sources */,
+				D0FE978F2382D55600AC5867 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
