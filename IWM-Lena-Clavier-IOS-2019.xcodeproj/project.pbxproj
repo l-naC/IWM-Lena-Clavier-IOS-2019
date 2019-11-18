@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0FE975D2382D06300AC5867 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FE975C2382D06300AC5867 /* AppDelegate.swift */; };
+		D0FE975F2382D06300AC5867 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FE975E2382D06300AC5867 /* SceneDelegate.swift */; };
+		D0FE97612382D06300AC5867 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FE97602382D06300AC5867 /* ViewController.swift */; };
+		D0FE97642382D06300AC5867 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0FE97622382D06300AC5867 /* Main.storyboard */; };
+		D0FE97662382D06400AC5867 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0FE97652382D06400AC5867 /* Assets.xcassets */; };
+		D0FE97692382D06400AC5867 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0FE97672382D06400AC5867 /* LaunchScreen.storyboard */; };
+		D0FE97742382D06400AC5867 /* IWM_Lena_Clavier_IOS_2019Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FE97732382D06400AC5867 /* IWM_Lena_Clavier_IOS_2019Tests.swift */; };
+		D0FE977F2382D06400AC5867 /* IWM_Lena_Clavier_IOS_2019UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FE977E2382D06400AC5867 /* IWM_Lena_Clavier_IOS_2019UITests.swift */; };
+		D0FE978D2382D28B00AC5867 /* fond.png in Resources */ = {isa = PBXBuildFile; fileRef = D0FE978C2382D28B00AC5867 /* fond.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0FE97702382D06400AC5867 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0FE97512382D06300AC5867 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0FE97582382D06300AC5867;
+			remoteInfo = "IWM-Lena-Clavier-IOS-2019";
+		};
+		D0FE977B2382D06400AC5867 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0FE97512382D06300AC5867 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0FE97582382D06300AC5867;
+			remoteInfo = "IWM-Lena-Clavier-IOS-2019";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D0FE97592382D06300AC5867 /* IWM-Lena-Clavier-IOS-2019.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IWM-Lena-Clavier-IOS-2019.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0FE975C2382D06300AC5867 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D0FE975E2382D06300AC5867 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D0FE97602382D06300AC5867 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D0FE97632382D06300AC5867 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D0FE97652382D06400AC5867 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0FE97682382D06400AC5867 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D0FE976A2382D06400AC5867 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0FE976F2382D06400AC5867 /* IWM-Lena-Clavier-IOS-2019Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IWM-Lena-Clavier-IOS-2019Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0FE97732382D06400AC5867 /* IWM_Lena_Clavier_IOS_2019Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IWM_Lena_Clavier_IOS_2019Tests.swift; sourceTree = "<group>"; };
+		D0FE97752382D06400AC5867 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0FE977A2382D06400AC5867 /* IWM-Lena-Clavier-IOS-2019UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IWM-Lena-Clavier-IOS-2019UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0FE977E2382D06400AC5867 /* IWM_Lena_Clavier_IOS_2019UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IWM_Lena_Clavier_IOS_2019UITests.swift; sourceTree = "<group>"; };
+		D0FE97802382D06400AC5867 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0FE978C2382D28B00AC5867 /* fond.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fond.png; path = ../../Downloads/fond.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0FE97562382D06300AC5867 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0FE976C2382D06400AC5867 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0FE97772382D06400AC5867 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0FE97502382D06300AC5867 = {
+			isa = PBXGroup;
+			children = (
+				D0FE975B2382D06300AC5867 /* IWM-Lena-Clavier-IOS-2019 */,
+				D0FE97722382D06400AC5867 /* IWM-Lena-Clavier-IOS-2019Tests */,
+				D0FE977D2382D06400AC5867 /* IWM-Lena-Clavier-IOS-2019UITests */,
+				D0FE975A2382D06300AC5867 /* Products */,
+				D0FE978C2382D28B00AC5867 /* fond.png */,
+			);
+			sourceTree = "<group>";
+		};
+		D0FE975A2382D06300AC5867 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0FE97592382D06300AC5867 /* IWM-Lena-Clavier-IOS-2019.app */,
+				D0FE976F2382D06400AC5867 /* IWM-Lena-Clavier-IOS-2019Tests.xctest */,
+				D0FE977A2382D06400AC5867 /* IWM-Lena-Clavier-IOS-2019UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0FE975B2382D06300AC5867 /* IWM-Lena-Clavier-IOS-2019 */ = {
+			isa = PBXGroup;
+			children = (
+				D0FE975C2382D06300AC5867 /* AppDelegate.swift */,
+				D0FE975E2382D06300AC5867 /* SceneDelegate.swift */,
+				D0FE97602382D06300AC5867 /* ViewController.swift */,
+				D0FE97622382D06300AC5867 /* Main.storyboard */,
+				D0FE97652382D06400AC5867 /* Assets.xcassets */,
+				D0FE97672382D06400AC5867 /* LaunchScreen.storyboard */,
+				D0FE976A2382D06400AC5867 /* Info.plist */,
+			);
+			path = "IWM-Lena-Clavier-IOS-2019";
+			sourceTree = "<group>";
+		};
+		D0FE97722382D06400AC5867 /* IWM-Lena-Clavier-IOS-2019Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D0FE97732382D06400AC5867 /* IWM_Lena_Clavier_IOS_2019Tests.swift */,
+				D0FE97752382D06400AC5867 /* Info.plist */,
+			);
+			path = "IWM-Lena-Clavier-IOS-2019Tests";
+			sourceTree = "<group>";
+		};
+		D0FE977D2382D06400AC5867 /* IWM-Lena-Clavier-IOS-2019UITests */ = {
+			isa = PBXGroup;
+			children = (
+				D0FE977E2382D06400AC5867 /* IWM_Lena_Clavier_IOS_2019UITests.swift */,
+				D0FE97802382D06400AC5867 /* Info.plist */,
+			);
+			path = "IWM-Lena-Clavier-IOS-2019UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0FE97582382D06300AC5867 /* IWM-Lena-Clavier-IOS-2019 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0FE97832382D06400AC5867 /* Build configuration list for PBXNativeTarget "IWM-Lena-Clavier-IOS-2019" */;
+			buildPhases = (
+				D0FE97552382D06300AC5867 /* Sources */,
+				D0FE97562382D06300AC5867 /* Frameworks */,
+				D0FE97572382D06300AC5867 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "IWM-Lena-Clavier-IOS-2019";
+			productName = "IWM-Lena-Clavier-IOS-2019";
+			productReference = D0FE97592382D06300AC5867 /* IWM-Lena-Clavier-IOS-2019.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D0FE976E2382D06400AC5867 /* IWM-Lena-Clavier-IOS-2019Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0FE97862382D06400AC5867 /* Build configuration list for PBXNativeTarget "IWM-Lena-Clavier-IOS-2019Tests" */;
+			buildPhases = (
+				D0FE976B2382D06400AC5867 /* Sources */,
+				D0FE976C2382D06400AC5867 /* Frameworks */,
+				D0FE976D2382D06400AC5867 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0FE97712382D06400AC5867 /* PBXTargetDependency */,
+			);
+			name = "IWM-Lena-Clavier-IOS-2019Tests";
+			productName = "IWM-Lena-Clavier-IOS-2019Tests";
+			productReference = D0FE976F2382D06400AC5867 /* IWM-Lena-Clavier-IOS-2019Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D0FE97792382D06400AC5867 /* IWM-Lena-Clavier-IOS-2019UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0FE97892382D06400AC5867 /* Build configuration list for PBXNativeTarget "IWM-Lena-Clavier-IOS-2019UITests" */;
+			buildPhases = (
+				D0FE97762382D06400AC5867 /* Sources */,
+				D0FE97772382D06400AC5867 /* Frameworks */,
+				D0FE97782382D06400AC5867 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0FE977C2382D06400AC5867 /* PBXTargetDependency */,
+			);
+			name = "IWM-Lena-Clavier-IOS-2019UITests";
+			productName = "IWM-Lena-Clavier-IOS-2019UITests";
+			productReference = D0FE977A2382D06400AC5867 /* IWM-Lena-Clavier-IOS-2019UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0FE97512382D06300AC5867 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = jpo;
+				TargetAttributes = {
+					D0FE97582382D06300AC5867 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					D0FE976E2382D06400AC5867 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = D0FE97582382D06300AC5867;
+					};
+					D0FE97792382D06400AC5867 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = D0FE97582382D06300AC5867;
+					};
+				};
+			};
+			buildConfigurationList = D0FE97542382D06300AC5867 /* Build configuration list for PBXProject "IWM-Lena-Clavier-IOS-2019" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0FE97502382D06300AC5867;
+			productRefGroup = D0FE975A2382D06300AC5867 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0FE97582382D06300AC5867 /* IWM-Lena-Clavier-IOS-2019 */,
+				D0FE976E2382D06400AC5867 /* IWM-Lena-Clavier-IOS-2019Tests */,
+				D0FE97792382D06400AC5867 /* IWM-Lena-Clavier-IOS-2019UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0FE97572382D06300AC5867 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0FE97692382D06400AC5867 /* LaunchScreen.storyboard in Resources */,
+				D0FE97662382D06400AC5867 /* Assets.xcassets in Resources */,
+				D0FE978D2382D28B00AC5867 /* fond.png in Resources */,
+				D0FE97642382D06300AC5867 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0FE976D2382D06400AC5867 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0FE97782382D06400AC5867 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0FE97552382D06300AC5867 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0FE97612382D06300AC5867 /* ViewController.swift in Sources */,
+				D0FE975D2382D06300AC5867 /* AppDelegate.swift in Sources */,
+				D0FE975F2382D06300AC5867 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0FE976B2382D06400AC5867 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0FE97742382D06400AC5867 /* IWM_Lena_Clavier_IOS_2019Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0FE97762382D06400AC5867 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0FE977F2382D06400AC5867 /* IWM_Lena_Clavier_IOS_2019UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0FE97712382D06400AC5867 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0FE97582382D06300AC5867 /* IWM-Lena-Clavier-IOS-2019 */;
+			targetProxy = D0FE97702382D06400AC5867 /* PBXContainerItemProxy */;
+		};
+		D0FE977C2382D06400AC5867 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0FE97582382D06300AC5867 /* IWM-Lena-Clavier-IOS-2019 */;
+			targetProxy = D0FE977B2382D06400AC5867 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D0FE97622382D06300AC5867 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0FE97632382D06300AC5867 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D0FE97672382D06400AC5867 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0FE97682382D06400AC5867 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0FE97812382D06400AC5867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D0FE97822382D06400AC5867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0FE97842382D06400AC5867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "IWM-Lena-Clavier-IOS-2019/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ratp.IWM-Lena-Clavier-IOS-2019";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D0FE97852382D06400AC5867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "IWM-Lena-Clavier-IOS-2019/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ratp.IWM-Lena-Clavier-IOS-2019";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D0FE97872382D06400AC5867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "IWM-Lena-Clavier-IOS-2019Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ratp.IWM-Lena-Clavier-IOS-2019Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IWM-Lena-Clavier-IOS-2019.app/IWM-Lena-Clavier-IOS-2019";
+			};
+			name = Debug;
+		};
+		D0FE97882382D06400AC5867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "IWM-Lena-Clavier-IOS-2019Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ratp.IWM-Lena-Clavier-IOS-2019Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IWM-Lena-Clavier-IOS-2019.app/IWM-Lena-Clavier-IOS-2019";
+			};
+			name = Release;
+		};
+		D0FE978A2382D06400AC5867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "IWM-Lena-Clavier-IOS-2019UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ratp.IWM-Lena-Clavier-IOS-2019UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "IWM-Lena-Clavier-IOS-2019";
+			};
+			name = Debug;
+		};
+		D0FE978B2382D06400AC5867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "IWM-Lena-Clavier-IOS-2019UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ratp.IWM-Lena-Clavier-IOS-2019UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "IWM-Lena-Clavier-IOS-2019";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0FE97542382D06300AC5867 /* Build configuration list for PBXProject "IWM-Lena-Clavier-IOS-2019" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0FE97812382D06400AC5867 /* Debug */,
+				D0FE97822382D06400AC5867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0FE97832382D06400AC5867 /* Build configuration list for PBXNativeTarget "IWM-Lena-Clavier-IOS-2019" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0FE97842382D06400AC5867 /* Debug */,
+				D0FE97852382D06400AC5867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0FE97862382D06400AC5867 /* Build configuration list for PBXNativeTarget "IWM-Lena-Clavier-IOS-2019Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0FE97872382D06400AC5867 /* Debug */,
+				D0FE97882382D06400AC5867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0FE97892382D06400AC5867 /* Build configuration list for PBXNativeTarget "IWM-Lena-Clavier-IOS-2019UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0FE978A2382D06400AC5867 /* Debug */,
+				D0FE978B2382D06400AC5867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0FE97512382D06300AC5867 /* Project object */;
+}
