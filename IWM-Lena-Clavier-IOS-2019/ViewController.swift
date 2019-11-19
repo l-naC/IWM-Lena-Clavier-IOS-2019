@@ -40,9 +40,9 @@ class ViewController: UIViewController {
         Auth.auth().removeStateDidChangeListener(handle!)
     }
     
-    
-   @IBAction func login(_ sender: Any) {
-    guard let email = self.emailTextField.text, let password = self.passwordTextField.text else {
+    @IBAction func loginAttemp(_ sender: Any){
+        guard let email = emailTextField.text, let password =
+        passwordTextField.text else {
             let alert = UIAlertController(title: "Alert", message: "error", preferredStyle: .alert)
             alert.addAction(UIAlertAction(title: NSLocalizedString("OK", comment: "Default action"), style: .default, handler: { _ in
                     NSLog("The \"OK\" alert occured.")
@@ -50,8 +50,17 @@ class ViewController: UIViewController {
             return self.present(alert, animated: true, completion: nil)
         }
         
-        Auth.auth().signIn(withEmail: email, password: password) { [weak self] authResult, error in
-            guard self != nil else { return }
+        Auth.auth().signIn(withEmail: email, password: password) { (result, error) in
+            let user = result?.user
+            if (user != nil) {
+                self.performSegue(withIdentifier: "HomePageViewController", sender: self)
+            } else {
+                let alert = UIAlertController(title: "Alert", message: "error", preferredStyle: .alert)
+                alert.addAction(UIAlertAction(title: NSLocalizedString("OK", comment: "Default action"), style: .default, handler: { _ in
+                        NSLog("The \"OK\" alert occured.")
+                        }))
+                return self.present(alert, animated: true, completion: nil)
+            }
         }
     }
     

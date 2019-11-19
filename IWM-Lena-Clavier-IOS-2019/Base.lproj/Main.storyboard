@@ -48,7 +48,6 @@
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Register"/>
                                 <connections>
-                                    <action selector="loginAttempt:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SB3-I2-w1D"/>
                                     <action selector="registerPage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CsC-sZ-2Wf"/>
                                 </connections>
                             </button>
@@ -60,7 +59,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="login:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nf4-Qc-VaC"/>
+                                    <action selector="loginAttemp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="g7H-Q1-flW"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -125,7 +124,6 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="loginAttempt:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nuW-Mw-UAO"/>
                                     <segue destination="kZv-y4-xVL" kind="show" id="bK7-sq-tG8"/>
                                 </connections>
                             </button>
@@ -261,9 +259,6 @@
                                 <color key="backgroundColor" red="0.053548111160000002" green="0.3735832254" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Logout"/>
-                                <connections>
-                                    <action selector="loginAttempt:" destination="BYZ-38-t0r" eventType="touchUpInside" id="K2L-Br-Uxx"/>
-                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -293,7 +288,6 @@
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Login"/>
                                 <connections>
-                                    <action selector="loginAttempt:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SjR-dq-xQ0"/>
                                     <action selector="loginPage:" destination="gip-kG-BL9" eventType="touchUpInside" id="7bV-va-GrP"/>
                                 </connections>
                             </button>
@@ -314,7 +308,6 @@
                                 <state key="normal" title="Register"/>
                                 <connections>
                                     <action selector="RegisterAttempt:" destination="gip-kG-BL9" eventType="touchUpInside" id="akZ-Sb-Iar"/>
-                                    <action selector="loginAttempt:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VRe-SS-Onh"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wHY-Fd-gdy">
