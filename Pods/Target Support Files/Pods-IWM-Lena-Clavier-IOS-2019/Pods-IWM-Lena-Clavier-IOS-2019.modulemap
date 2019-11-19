@@ -1,0 +1,6 @@
+framework module Pods_IWM_Lena_Clavier_IOS_2019 {
+  umbrella header "Pods-IWM-Lena-Clavier-IOS-2019-umbrella.h"
+
+  export *
+  module * { export * }
+}

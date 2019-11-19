@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19F00CD94BB07BB5152619B7 /* Pods_IWM_Lena_Clavier_IOS_2019_IWM_Lena_Clavier_IOS_2019UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A0E59664A2ADA91CA8D22F4 /* Pods_IWM_Lena_Clavier_IOS_2019_IWM_Lena_Clavier_IOS_2019UITests.framework */; };
+		99E0E6472EE39BCDFC3629D3 /* Pods_IWM_Lena_Clavier_IOS_2019Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 919FC0734CF1B93365C65623 /* Pods_IWM_Lena_Clavier_IOS_2019Tests.framework */; };
+		9E93CA4CE36B9BA6C36CEC0D /* Pods_IWM_Lena_Clavier_IOS_2019.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEDA34A1F1BD3C6BEAA94754 /* Pods_IWM_Lena_Clavier_IOS_2019.framework */; };
 		D0FE975D2382D06300AC5867 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FE975C2382D06300AC5867 /* AppDelegate.swift */; };
 		D0FE975F2382D06300AC5867 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FE975E2382D06300AC5867 /* SceneDelegate.swift */; };
 		D0FE97612382D06300AC5867 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FE97602382D06300AC5867 /* ViewController.swift */; };
@@ -38,6 +41,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E0311B50CEC22ADDDE5A996 /* Pods-IWM-Lena-Clavier-IOS-2019Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IWM-Lena-Clavier-IOS-2019Tests.release.xcconfig"; path = "Target Support Files/Pods-IWM-Lena-Clavier-IOS-2019Tests/Pods-IWM-Lena-Clavier-IOS-2019Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4D66BF4078FD58DF3E2D6827 /* Pods-IWM-Lena-Clavier-IOS-2019-IWM-Lena-Clavier-IOS-2019UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IWM-Lena-Clavier-IOS-2019-IWM-Lena-Clavier-IOS-2019UITests.debug.xcconfig"; path = "Target Support Files/Pods-IWM-Lena-Clavier-IOS-2019-IWM-Lena-Clavier-IOS-2019UITests/Pods-IWM-Lena-Clavier-IOS-2019-IWM-Lena-Clavier-IOS-2019UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		59EDD9CA54031638F5749093 /* Pods-IWM-Lena-Clavier-IOS-2019Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IWM-Lena-Clavier-IOS-2019Tests.debug.xcconfig"; path = "Target Support Files/Pods-IWM-Lena-Clavier-IOS-2019Tests/Pods-IWM-Lena-Clavier-IOS-2019Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		6A0E59664A2ADA91CA8D22F4 /* Pods_IWM_Lena_Clavier_IOS_2019_IWM_Lena_Clavier_IOS_2019UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IWM_Lena_Clavier_IOS_2019_IWM_Lena_Clavier_IOS_2019UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		919FC0734CF1B93365C65623 /* Pods_IWM_Lena_Clavier_IOS_2019Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IWM_Lena_Clavier_IOS_2019Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C30C2B332AA20C9351BA4EF /* Pods-IWM-Lena-Clavier-IOS-2019.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IWM-Lena-Clavier-IOS-2019.release.xcconfig"; path = "Target Support Files/Pods-IWM-Lena-Clavier-IOS-2019/Pods-IWM-Lena-Clavier-IOS-2019.release.xcconfig"; sourceTree = "<group>"; };
+		AEDA34A1F1BD3C6BEAA94754 /* Pods_IWM_Lena_Clavier_IOS_2019.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IWM_Lena_Clavier_IOS_2019.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0FE97592382D06300AC5867 /* IWM-Lena-Clavier-IOS-2019.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IWM-Lena-Clavier-IOS-2019.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0FE975C2382D06300AC5867 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0FE975E2382D06300AC5867 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -55,6 +65,8 @@
 		D0FE978C2382D28B00AC5867 /* fond.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fond.png; path = ../../Downloads/fond.png; sourceTree = "<group>"; };
 		D0FE978E2382D55600AC5867 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		D0FE97902382DE6800AC5867 /* favoris.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = favoris.png; path = ../../Downloads/favoris.png; sourceTree = "<group>"; };
+		F78B1B9087D4F497BAF01C4F /* Pods-IWM-Lena-Clavier-IOS-2019-IWM-Lena-Clavier-IOS-2019UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IWM-Lena-Clavier-IOS-2019-IWM-Lena-Clavier-IOS-2019UITests.release.xcconfig"; path = "Target Support Files/Pods-IWM-Lena-Clavier-IOS-2019-IWM-Lena-Clavier-IOS-2019UITests/Pods-IWM-Lena-Clavier-IOS-2019-IWM-Lena-Clavier-IOS-2019UITests.release.xcconfig"; sourceTree = "<group>"; };
+		FF4D3EE2E5752BB99A50CCD0 /* Pods-IWM-Lena-Clavier-IOS-2019.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IWM-Lena-Clavier-IOS-2019.debug.xcconfig"; path = "Target Support Files/Pods-IWM-Lena-Clavier-IOS-2019/Pods-IWM-Lena-Clavier-IOS-2019.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E93CA4CE36B9BA6C36CEC0D /* Pods_IWM_Lena_Clavier_IOS_2019.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99E0E6472EE39BCDFC3629D3 /* Pods_IWM_Lena_Clavier_IOS_2019Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,12 +90,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19F00CD94BB07BB5152619B7 /* Pods_IWM_Lena_Clavier_IOS_2019_IWM_Lena_Clavier_IOS_2019UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D02F679EFB33FF8CEE66F47 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FF4D3EE2E5752BB99A50CCD0 /* Pods-IWM-Lena-Clavier-IOS-2019.debug.xcconfig */,
+				9C30C2B332AA20C9351BA4EF /* Pods-IWM-Lena-Clavier-IOS-2019.release.xcconfig */,
+				4D66BF4078FD58DF3E2D6827 /* Pods-IWM-Lena-Clavier-IOS-2019-IWM-Lena-Clavier-IOS-2019UITests.debug.xcconfig */,
+				F78B1B9087D4F497BAF01C4F /* Pods-IWM-Lena-Clavier-IOS-2019-IWM-Lena-Clavier-IOS-2019UITests.release.xcconfig */,
+				59EDD9CA54031638F5749093 /* Pods-IWM-Lena-Clavier-IOS-2019Tests.debug.xcconfig */,
+				0E0311B50CEC22ADDDE5A996 /* Pods-IWM-Lena-Clavier-IOS-2019Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D0FE97502382D06300AC5867 = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +119,8 @@
 				D0FE975A2382D06300AC5867 /* Products */,
 				D0FE978C2382D28B00AC5867 /* fond.png */,
 				D0FE97902382DE6800AC5867 /* favoris.png */,
+				0D02F679EFB33FF8CEE66F47 /* Pods */,
+				E491B9BA65D52BCE40528440 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -137,6 +167,16 @@
 			path = "IWM-Lena-Clavier-IOS-2019UITests";
 			sourceTree = "<group>";
 		};
+		E491B9BA65D52BCE40528440 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AEDA34A1F1BD3C6BEAA94754 /* Pods_IWM_Lena_Clavier_IOS_2019.framework */,
+				6A0E59664A2ADA91CA8D22F4 /* Pods_IWM_Lena_Clavier_IOS_2019_IWM_Lena_Clavier_IOS_2019UITests.framework */,
+				919FC0734CF1B93365C65623 /* Pods_IWM_Lena_Clavier_IOS_2019Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,9 +184,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D0FE97832382D06400AC5867 /* Build configuration list for PBXNativeTarget "IWM-Lena-Clavier-IOS-2019" */;
 			buildPhases = (
+				9456890E41659E62A3608163 /* [CP] Check Pods Manifest.lock */,
 				D0FE97552382D06300AC5867 /* Sources */,
 				D0FE97562382D06300AC5867 /* Frameworks */,
 				D0FE97572382D06300AC5867 /* Resources */,
+				A81A5530D21AADC8C39838B7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -161,6 +203,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D0FE97862382D06400AC5867 /* Build configuration list for PBXNativeTarget "IWM-Lena-Clavier-IOS-2019Tests" */;
 			buildPhases = (
+				256EC993BB0BA25CD80F1FF2 /* [CP] Check Pods Manifest.lock */,
 				D0FE976B2382D06400AC5867 /* Sources */,
 				D0FE976C2382D06400AC5867 /* Frameworks */,
 				D0FE976D2382D06400AC5867 /* Resources */,
@@ -179,9 +222,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D0FE97892382D06400AC5867 /* Build configuration list for PBXNativeTarget "IWM-Lena-Clavier-IOS-2019UITests" */;
 			buildPhases = (
+				DF200CD84FFCF67561F4A27A /* [CP] Check Pods Manifest.lock */,
 				D0FE97762382D06400AC5867 /* Sources */,
 				D0FE97772382D06400AC5867 /* Frameworks */,
 				D0FE97782382D06400AC5867 /* Resources */,
+				30635EF74D0694DB7B2B200E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -264,6 +309,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		256EC993BB0BA25CD80F1FF2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IWM-Lena-Clavier-IOS-2019Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		30635EF74D0694DB7B2B200E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IWM-Lena-Clavier-IOS-2019-IWM-Lena-Clavier-IOS-2019UITests/Pods-IWM-Lena-Clavier-IOS-2019-IWM-Lena-Clavier-IOS-2019UITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IWM-Lena-Clavier-IOS-2019-IWM-Lena-Clavier-IOS-2019UITests/Pods-IWM-Lena-Clavier-IOS-2019-IWM-Lena-Clavier-IOS-2019UITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IWM-Lena-Clavier-IOS-2019-IWM-Lena-Clavier-IOS-2019UITests/Pods-IWM-Lena-Clavier-IOS-2019-IWM-Lena-Clavier-IOS-2019UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9456890E41659E62A3608163 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IWM-Lena-Clavier-IOS-2019-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A81A5530D21AADC8C39838B7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IWM-Lena-Clavier-IOS-2019/Pods-IWM-Lena-Clavier-IOS-2019-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IWM-Lena-Clavier-IOS-2019/Pods-IWM-Lena-Clavier-IOS-2019-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IWM-Lena-Clavier-IOS-2019/Pods-IWM-Lena-Clavier-IOS-2019-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF200CD84FFCF67561F4A27A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IWM-Lena-Clavier-IOS-2019-IWM-Lena-Clavier-IOS-2019UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D0FE97552382D06300AC5867 /* Sources */ = {
@@ -444,6 +592,7 @@
 		};
 		D0FE97842382D06400AC5867 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF4D3EE2E5752BB99A50CCD0 /* Pods-IWM-Lena-Clavier-IOS-2019.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -461,6 +610,7 @@
 		};
 		D0FE97852382D06400AC5867 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C30C2B332AA20C9351BA4EF /* Pods-IWM-Lena-Clavier-IOS-2019.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -478,6 +628,7 @@
 		};
 		D0FE97872382D06400AC5867 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59EDD9CA54031638F5749093 /* Pods-IWM-Lena-Clavier-IOS-2019Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -499,6 +650,7 @@
 		};
 		D0FE97882382D06400AC5867 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E0311B50CEC22ADDDE5A996 /* Pods-IWM-Lena-Clavier-IOS-2019Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -520,6 +672,7 @@
 		};
 		D0FE978A2382D06400AC5867 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D66BF4078FD58DF3E2D6827 /* Pods-IWM-Lena-Clavier-IOS-2019-IWM-Lena-Clavier-IOS-2019UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -539,6 +692,7 @@
 		};
 		D0FE978B2382D06400AC5867 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F78B1B9087D4F497BAF01C4F /* Pods-IWM-Lena-Clavier-IOS-2019-IWM-Lena-Clavier-IOS-2019UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
