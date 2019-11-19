@@ -1,4 +1,6 @@
 ${PODS_ROOT}/Target Support Files/Pods-IWM-Lena-Clavier-IOS-2019-IWM-Lena-Clavier-IOS-2019UITests/Pods-IWM-Lena-Clavier-IOS-2019-IWM-Lena-Clavier-IOS-2019UITests-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework
 ${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework
+${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework
 ${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework

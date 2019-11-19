@@ -17,6 +17,9 @@ target 'IWM-Lena-Clavier-IOS-2019' do
   end
 pod 'Firebase'
 pod 'Alamofire'
+pod 'Firebase/Auth'
+pod 'Firebase/Database'
+pod 'Firebase/Storage'
 # add pods for desired Firebase products
 # https://firebase.google.com/docs/ios/setup#available-pods
 end

@@ -7,43 +7,56 @@
 //
 
 import UIKit
-
+import FirebaseAuth
 class ViewController: UIViewController {
-
-    @IBOutlet weak var pseudoTextField:UITextField!
+    
     @IBOutlet weak var passwordTextField:UITextField!
-     
+    @IBOutlet weak var emailTextField: UITextField!
+    
+    var handle: AuthStateDidChangeListenerHandle?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
-    @IBAction func loginAttempt(_ sender: Any){
-//        let test = pseudoTextField.text
-//
-//        if let poulet = test {
-//            print(poulet)
+//    func signIn(email: String, pass: String, completionBlock: @escaping (_ success: Bool) -> Void) {
+//        Auth.auth().signIn(withEmail: email, password: pass) { (result, error) in
+//            if let error = error, let _ = AuthErrorCode(rawValue: error._code) {
+//                completionBlock(false)
+//            } else {
+//                completionBlock(true)
+//            }
 //        }
-//        let alert = UIAlertController(title: "Vous avez cliqué sur le bouton", message: "This is an alert.", preferredStyle: .alert)
-//        alert.addAction(UIAlertAction(title: NSLocalizedString("OK", comment: "Default action"), style: .default, handler: { _ in
-//        NSLog("The \"OK\" alert occured.")
-//        }))
-//        self.present(alert, animated: true, completion: nil)
-        let pseudo = pseudoTextField.text
-        let password = passwordTextField.text
-        
-        if pseudo == "Lena" && password == "lena" {
-            self.performSegue(withIdentifier: "HomePageViewController", sender: self)
-                    
-        } else {
-            let alert = UIAlertController(title: "Alert", message: "Try again", preferredStyle: .alert)
+//    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        handle = Auth.auth().addStateDidChangeListener { (auth, user) in
+          // ...
+        }
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        Auth.auth().removeStateDidChangeListener(handle!)
+    }
+    
+    
+   @IBAction func login(_ sender: Any) {
+    guard let email = self.emailTextField.text, let password = self.passwordTextField.text else {
+            let alert = UIAlertController(title: "Alert", message: "error", preferredStyle: .alert)
             alert.addAction(UIAlertAction(title: NSLocalizedString("OK", comment: "Default action"), style: .default, handler: { _ in
                     NSLog("The \"OK\" alert occured.")
                     }))
-            self.present(alert, animated: true, completion: nil)
+            return self.present(alert, animated: true, completion: nil)
         }
         
+        Auth.auth().signIn(withEmail: email, password: password) { [weak self] authResult, error in
+            guard self != nil else { return }
+        }
     }
-
+    
+    @IBAction func registerPage(_ sender: Any){
+        self.performSegue(withIdentifier: "SignupPageViewController", sender: self)
+    }
 }
 
