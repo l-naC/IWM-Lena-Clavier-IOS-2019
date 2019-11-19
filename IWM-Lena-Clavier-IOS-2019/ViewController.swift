@@ -17,22 +17,11 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
 
-//    func signIn(email: String, pass: String, completionBlock: @escaping (_ success: Bool) -> Void) {
-//        Auth.auth().signIn(withEmail: email, password: pass) { (result, error) in
-//            if let error = error, let _ = AuthErrorCode(rawValue: error._code) {
-//                completionBlock(false)
-//            } else {
-//                completionBlock(true)
-//            }
-//        }
-//    }
     
     override func viewWillAppear(_ animated: Bool) {
         handle = Auth.auth().addStateDidChangeListener { (auth, user) in
-          // ...
         }
     }
     
@@ -42,19 +31,15 @@ class ViewController: UIViewController {
     
     @IBAction func loginAttemp(_ sender: Any){
         guard let email = emailTextField.text, let password =
-        passwordTextField.text else {
-            let alert = UIAlertController(title: "Alert", message: "error", preferredStyle: .alert)
-            alert.addAction(UIAlertAction(title: NSLocalizedString("OK", comment: "Default action"), style: .default, handler: { _ in
-                    NSLog("The \"OK\" alert occured.")
-                    }))
-            return self.present(alert, animated: true, completion: nil)
-        }
+            passwordTextField.text else {return}
         
         Auth.auth().signIn(withEmail: email, password: password) { (result, error) in
             let user = result?.user
             if (user != nil) {
+                print("ok")
                 self.performSegue(withIdentifier: "HomePageViewController", sender: self)
             } else {
+                print("not ok")
                 let alert = UIAlertController(title: "Alert", message: "error", preferredStyle: .alert)
                 alert.addAction(UIAlertAction(title: NSLocalizedString("OK", comment: "Default action"), style: .default, handler: { _ in
                         NSLog("The \"OK\" alert occured.")

@@ -12,6 +12,7 @@
 		9E93CA4CE36B9BA6C36CEC0D /* Pods_IWM_Lena_Clavier_IOS_2019.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEDA34A1F1BD3C6BEAA94754 /* Pods_IWM_Lena_Clavier_IOS_2019.framework */; };
 		D01C09602383FC1B00621789 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D01C095F2383FC1B00621789 /* GoogleService-Info.plist */; };
 		D01C09622383FF1B00621789 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01C09612383FF1B00621789 /* SignupViewController.swift */; };
+		D01C0964238434F000621789 /* ProfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01C0963238434F000621789 /* ProfilViewController.swift */; };
 		D0FE975D2382D06300AC5867 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FE975C2382D06300AC5867 /* AppDelegate.swift */; };
 		D0FE975F2382D06300AC5867 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FE975E2382D06300AC5867 /* SceneDelegate.swift */; };
 		D0FE97612382D06300AC5867 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FE97602382D06300AC5867 /* ViewController.swift */; };
@@ -52,6 +53,7 @@
 		AEDA34A1F1BD3C6BEAA94754 /* Pods_IWM_Lena_Clavier_IOS_2019.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IWM_Lena_Clavier_IOS_2019.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D01C095F2383FC1B00621789 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D01C09612383FF1B00621789 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		D01C0963238434F000621789 /* ProfilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilViewController.swift; sourceTree = "<group>"; };
 		D0FE97592382D06300AC5867 /* IWM-Lena-Clavier-IOS-2019.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IWM-Lena-Clavier-IOS-2019.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0FE975C2382D06300AC5867 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0FE975E2382D06300AC5867 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -151,6 +153,7 @@
 				D0FE976A2382D06400AC5867 /* Info.plist */,
 				D0FE978E2382D55600AC5867 /* HomeViewController.swift */,
 				D01C09612383FF1B00621789 /* SignupViewController.swift */,
+				D01C0963238434F000621789 /* ProfilViewController.swift */,
 			);
 			path = "IWM-Lena-Clavier-IOS-2019";
 			sourceTree = "<group>";
@@ -425,6 +428,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D01C0964238434F000621789 /* ProfilViewController.swift in Sources */,
 				D0FE97612382D06300AC5867 /* ViewController.swift in Sources */,
 				D0FE975D2382D06300AC5867 /* AppDelegate.swift in Sources */,
 				D01C09622383FF1B00621789 /* SignupViewController.swift in Sources */,

@@ -39,7 +39,9 @@ class SignupViewController: UIViewController {
                     }))
             return self.present(alert, animated: true, completion: nil)
         }
-        Auth.auth().createUser(withEmail: email, password: password) { authResult, error in}
+        Auth.auth().createUser(withEmail: email, password: password) { authResult, error in
+        }
+        self.performSegue(withIdentifier: "HomePageViewController", sender: self)
     }
     
     @IBAction func loginPage(_ sender: Any){

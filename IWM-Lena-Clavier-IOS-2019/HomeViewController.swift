@@ -7,15 +7,27 @@
 //
 
 import UIKit
-
+import FirebaseAuth
 class HomeViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+    var handle: AuthStateDidChangeListenerHandle?
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        handle = Auth.auth().addStateDidChangeListener { (auth, user) in
+        }
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        Auth.auth().removeStateDidChangeListener(handle!)
+    }
   
+    
+    
     
     var lignes = ["ligne 1","ligne 2","ligne 3", "ligne 4", "ligne 5", "ligne 6", "ligne 7", "ligne 8", "ligne 9", "ligne 10", "ligne 11", "ligne 12", "ligne 13", "ligne 14"]
     
